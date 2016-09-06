@@ -57,6 +57,7 @@ public class ClientMain extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
         button13 = new java.awt.Button();
+        button14 = new java.awt.Button();
         jScrollPane4 = new javax.swing.JScrollPane();
         taskTable2 = new javax.swing.JTable();
 
@@ -347,8 +348,12 @@ public class ClientMain extends javax.swing.JFrame {
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Commands"));
 
         button13.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
-        button13.setLabel("Details");
+        button13.setLabel("Start network");
         button13.setName(""); // NOI18N
+
+        button14.setFont(new java.awt.Font("Tahoma", 0, 11)); // NOI18N
+        button14.setLabel("Join network");
+        button14.setName(""); // NOI18N
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -356,7 +361,9 @@ public class ClientMain extends javax.swing.JFrame {
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(button13, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(button13, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
+                    .addComponent(button14, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel9Layout.setVerticalGroup(
@@ -364,7 +371,9 @@ public class ClientMain extends javax.swing.JFrame {
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(button13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(button14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         taskTable2.setModel(new javax.swing.table.DefaultTableModel(
@@ -479,6 +488,7 @@ public class ClientMain extends javax.swing.JFrame {
     private java.awt.Button button11;
     private java.awt.Button button12;
     private java.awt.Button button13;
+    private java.awt.Button button14;
     private java.awt.Button button2;
     private java.awt.Button button3;
     private java.awt.Button button4;
