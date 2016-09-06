@@ -10,5 +10,5 @@ package nfinity.server;
  * @author Prashan
  */
 public interface WorkUnitGenerator {
-    void generate();
+    WorkUnit generateNext();
 }
