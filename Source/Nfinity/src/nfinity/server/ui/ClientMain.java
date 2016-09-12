@@ -207,7 +207,7 @@ public class ClientMain extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "Project", "Progress", "Status", "Elapsed"
+                "Project", "Progress", "Elapsed", "Elapsed"
             }
         ) {
             Class[] types = new Class [] {
@@ -227,10 +227,6 @@ public class ClientMain extends javax.swing.JFrame {
         });
         taskTable.setName(""); // NOI18N
         jScrollPane2.setViewportView(taskTable);
-        if (taskTable.getColumnModel().getColumnCount() > 0) {
-            taskTable.getColumnModel().getColumn(2).setHeaderValue("Progress");
-            taskTable.getColumnModel().getColumn(3).setHeaderValue("Size");
-        }
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -286,8 +282,6 @@ public class ClientMain extends javax.swing.JFrame {
                 .addComponent(button12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        button11.getAccessibleContext().setAccessibleName("Retry now");
 
         taskTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

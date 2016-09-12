@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/ui/ProgressRenderer.java</file>
             <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/Foo.java</file>
+            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/bruteforce/PasswordUnit.java</file>
+            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/ui/ClientMain.java</file>
             <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/WorkUnitGenerator.java</file>
-            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/bruteforce/CombinationGenerator.java</file>
+            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/bruteforce/PasswordExecutor.java</file>
+            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/bruteforce/PasswordGenerator.java</file>
+            <file>file:/C:/Users/Prashan/Desktop/SLIIT/Y4/CDAP/nfinity/Source/Nfinity/src/nfinity/server/bruteforce/PasswordDistributor.java</file>
         </group>
     </open-files>
 </project-private>
